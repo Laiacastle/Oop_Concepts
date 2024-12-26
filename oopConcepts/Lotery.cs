@@ -11,6 +11,9 @@ namespace oopConcepts
         public int Date { get; set; }
         public string? Location { get; set; }
 
-        
+        public virtual void Winner()
+        {
+            Console.WriteLine("This Tiket Is the winner");
+        }
     }
 }
