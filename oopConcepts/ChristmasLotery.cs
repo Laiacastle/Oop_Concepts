@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace oopConcepts
 {
-    public class ChristmasLotery
+    public class ChristmasLotery: Lotery
     {
         public int Number { get; set; }
         public int Price { get; set; }
