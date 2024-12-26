@@ -11,10 +11,6 @@ namespace oopConcepts
         public int Date { get; set; }
         public string? Location { get; set; }
 
-        public Lotery(int date, string location)
-        {
-            Date = date;
-            Location = location;
-        }
+        
     }
 }
