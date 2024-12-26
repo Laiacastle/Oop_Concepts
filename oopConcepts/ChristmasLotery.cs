@@ -17,5 +17,11 @@ namespace oopConcepts
             Price = price;
         }
         public ChristmasLotery() { }
+
+        public override void Winner()
+        {
+            base.Winner();
+            Console.WriteLine($"you win {this.Price}");
+        }
     }
 }
