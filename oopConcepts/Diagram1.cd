@@ -3,23 +3,37 @@
   <Class Name="oopConcepts.ChristmasLotery" Collapsed="true">
     <Position X="7.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAECAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ChristmasLotery.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LoteryStand" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="oopConcepts.Lotery" Collapsed="true">
-    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Position X="9.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAKAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Lotery.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="oopConcepts.ChildDayLotery" Collapsed="true">
     <Position X="10.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAIAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ChildDayLotery.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LoteryStand" />
+    </ShowAsAssociation>
   </Class>
+  <Interface Name="oopConcepts.LoteryStand" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoteryStand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

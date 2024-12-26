@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace oopConcepts
 {
-    public class ChristmasLotery: Lotery
+    public class ChristmasLotery: Lotery, LoteryStand
     {
         public int Number { get; set; }
         public int Price { get; set; }
+
+        public LoteryStand LoteryStand
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         public ChristmasLotery(int number, int price)
         {
